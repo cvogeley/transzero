@@ -11,7 +11,7 @@
 
 $a->theme_info = array();
 
-function duepuntozero_init(&$a) {
+function transzero_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 function insertFormatting(comment,BBcode,id) {
