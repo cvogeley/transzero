@@ -3,7 +3,7 @@
 /*
  * Name: Transzero
  * Description: Completely based on Duopuntozero. Modern look with different levels of transparency, rounded corners, a clear focus on the content and more. You can overwrite background.jpg to have a completely different look (for admins only, resolution 1920x1080 or more (for wide screens). 
- * Version: Version 0.9.2
+ * Version: Version 0.9.3
  * Authors: Jeroenpraat <https://github.com/jeroenpraat/transzero> <http://jeroenpraat.nl/profile/jeroenpraat> (based on Duopuntozero by Friendica developers)
  * Background: Bridge in Scanolera by Robert Anderson (CC-BY-SA licence)
  * Screenshot: <a href="screenshot.png">Screenshot</a>
