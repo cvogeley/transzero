@@ -707,7 +707,7 @@ input#dfrn-url {
 #profile-photo-wrapper img {
 	width:175px;
 	height:175px;
-	padding: 12px;
+	margin: 5px;
 }
 
 #profile-edit-profile-name-label,
@@ -1106,6 +1106,7 @@ input#dfrn-url {
 .wall-item-photo-menu {
 	width: auto;
 	font-size: 16px;
+	font-weight: normal;
 	border: 2px solid #444444;
 	background: #FFFFFF;
 	position: absolute;
@@ -1796,6 +1797,7 @@ input#dfrn-url {
 .contact-photo-menu {
 	width: auto;
 	font-size: 16px;
+	font-weight: normal;
 	border: 2px solid #222222;
 	background: #FFFFFF;
 	position: absolute;
@@ -2362,6 +2364,13 @@ aside input[type='text'] {
  	padding-top: 0.5em;
  	background-color: rgb(255, 255, 255);
 }
+
+img.photo {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
 #photo-top-end {
 	clear: both;
 }
