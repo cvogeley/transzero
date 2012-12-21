@@ -1532,9 +1532,6 @@ input#dfrn-url {
 	float: left;
 	background-color: #ffffff;
 	padding: 10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
 }
 
 .directory-end {
@@ -1545,6 +1542,7 @@ input#dfrn-url {
 }
 .directory-photo {
 	margin-left: 25px;
+
 }
 .directory-details {
 	font-size: 0.7em;
@@ -1570,6 +1568,9 @@ input#dfrn-url {
 
 .directory-photo-img {
 	border: none;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 }
 
 .pager {
