@@ -2845,9 +2845,13 @@ img.photo {
 }
 
 .settings-block {
-	border: 1px solid #AAA;
+	//border: 1px solid #AAA;
 	margin: 10px;
 	padding: 10px;
+	background:#ffffff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 }
 
 .app-title {
