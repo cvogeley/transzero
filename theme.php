@@ -102,4 +102,15 @@ $('.savedsearchterm').hover(
 
 </script>
 EOT;
+
+//load jquery.ae.image.resize.js
+$imageresizeJS = $a->get_baseurl($ssl_state)."/view/theme/transzero/js/jquery.ae.image.resize.js";
+$a->page['htmlhead'] .= sprintf('<script language="JavaScript" src="%s" ></script>', $imageresizeJS);
+$a->page['htmlhead'] .= '
+<script>
+
+ $(function() {
+	$(".wall-item-content  img").aeImageResize({height:400, width:400});
+  });
+</script>';
 }

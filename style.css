@@ -3712,3 +3712,9 @@ ul.menu-popup {
 #div_id_remember input {
 	width: 20px;
 }
+
+
+.wall-item-content {
+max-height: 20000px;
+overflow: none;
+}
