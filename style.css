@@ -361,12 +361,12 @@ div.wall-item-content-wrapper.shiny {
 }
 
 .settings-widget .selected {
-	padding: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;	
-	border: 1px solid #CCCCCC;
-	background: #F8F8F8;
+	//padding: 3px;
+	//-moz-border-radius: 3px;
+	//-webkit-border-radius: 3px;
+	//border-radius: 3px;	
+	//border: 1px solid #CCCCCC;
+	//background: #F8F8F8;
 	font-weight: bold;
 }
 
