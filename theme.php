@@ -10,6 +10,7 @@
  */
 
 $a->theme_info = array();
+set_template_engine($a, 'smarty3');
 
 function transzero_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
