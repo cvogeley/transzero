@@ -1,4 +1,3 @@
-
 <h3>$header</h3>
 
 <div id="prvmail-wrapper" >
@@ -23,7 +22,7 @@ $select
 
 
 <div id="prvmail-submit-wrapper" >
-	<input type="submit" id="prvmail-submit" name="submit" value="Submit" tabindex="13" />
+	<input type="submit" id="prvmail-submit" name="submit" value="$submit" tabindex="13" />
 	<div id="prvmail-upload-wrapper" >
 		<div id="prvmail-upload" class="icon border camera" title="$upload" ></div>
 	</div> 
