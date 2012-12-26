@@ -22,7 +22,8 @@
 
 
 <div id="prvmail-submit-wrapper" >
-	<input type="submit" id="prvmail-submit" name="submit" value="{{$submit}}" tabindex="13" />	<div id="prvmail-upload-wrapper" >
+	<input type="submit" id="prvmail-submit" name="submit" value="{{$submit}}" tabindex="13" />	
+	<div id="prvmail-upload-wrapper" >
 	<div id="prvmail-upload" class="icon border camera" title="{{$upload}}" ></div>
 	</div> 
 	<div id="prvmail-link-wrapper" >
