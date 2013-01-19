@@ -60,9 +60,9 @@
 	{{ if $nav.manage }}<a id="nav-manage-link" class="nav-link $nav.manage.2 $sel.manage" href="$nav.manage.0" title="$nav.manage.3">$nav.manage.1</a>{{ endif }}
 	</span>
 	<span id="nav-end"></span>
-	<span id="banner">$banner ($sitelocation)</div>
+	<span id="banner">$banner ($sitelocation)</span>
 </nav>
 
 <ul id="nav-notifications-template" style="display:none;" rel="template">
-	<li class="{4}"><a href="{0}"><img src="{1}" height="24" width="24" alt="" />{2} <span class="notif-when">{3}</span></a></li>
+	<li class="{4}"><a href="{0}"><img data-src="{1}" height="24" width="24" alt="" />{2} <span class="notif-when">{3}</span></a></li>
 </ul>
