@@ -18,7 +18,7 @@
 				<span class="region">{{$profile.region}}</span>
 				<span class="postal-code">{{$profile.postal_code}}</span>
 			</span>
-			{{if $profile.country-name}}<span class="country-name">{{$profile.country_name}}</span>{{/if}}
+			{{if $profile.country_name}}<span class="country-name">{{$profile.country_name}}</span>{{/if}}
 		</dd>
 		</dl>
 	{{/if}}
